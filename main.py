@@ -19,5 +19,5 @@ def function_cicd(request):
     elif request_args and 'name' in request_args:
         name = request_args['name']
     else:
-        name = 'World! CICD pipeline GCF 15082024'
+        name = 'World! CICD pipeline GCF 15082024 2nd version'
     return 'Hello {}!'.format(name)
